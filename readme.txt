@@ -1,4 +1,15 @@
 // ----------------------------------------------------------------------
+// Copyright (c) 2016 by Patrik Ohlson
+// PHPurl Version 1.01
+// http://zdi.it
+// ----------------------------------------------------------------------
+// LICENSE
+//
+// This program is free software; you can redistribute it and/or
+// modify it under the terms of the GNU General Public License (GPL)
+// as published by the Free Software Foundation; either version 3
+// of the License, or (at your option) any later version.
+// ----------------------------------------------------------------------
 // Copyright (c) 2005- 2009 by Nile Flores
 // PHPurl Version 1.0
 // http://blondish.net/
@@ -40,7 +51,7 @@ ATTENTION! You can only specify the domain name, even if you placed the main fil
 3. Run install.php it will create the tables, Remember to delete install.php  when its finished.
 
 
-4. To login to the admin panel, point your browser to http://www.yourdomain.com/admin/login.php
+4. To login to the admin panel, point your browser to http://www.yourdomain.com/subfolder/admin/login.php
  
 Here you can Add / Edit / Delete urls.
 
