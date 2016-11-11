@@ -1,22 +1,27 @@
-<?php include('header.php'); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>PHPurl | Simple URL redirect</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+  <div id="main">
 
 <div id="content">
-        <h1>Welcome to PHPurl</h1>
-          PHPurl is a simple script made for anyone to be able to turn a long URL into a shorter address. It is great for:
-          <ul>
-          <li>Make a long URL short.</li>
-          <li>Great for SMS!</li>
-          <li>Friendly re-direct URL</li>
-          </ul>
-<br />
+<img src="img/logo.png" alt="PHPurl redirect" >
         <div id="urlresults">
-         <form method="post" action="create.php">
-<p>Enter Long URL Here | http:// To Make It Work <input type="text" name="url" size="50" value="http://"  /><br />
-Enter a short tag to identify your URL (optional) | Only alphanumeric characters allowed (but no digits-only - optional) <input type="text" name="tag" size="15" value="" /><br />
-	Click "Make It Short" to Submit URL To Make Short URL <input type="submit" name="send" value="Make It Short!" class="submit" /></p>
-      </form>
+<?php include('form.php'); ?>
             </div>
          </div>
+		
+  </div>
 
-
-<?php include('footer.php'); ?>
+<div id="footer">
+      Copyright &copy; PHPurl | <a href="http://validator.w3.org/check?uri=referer">XHTML 1.0 Strict</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | Designed By: <a href="http://blondish.net">Nile</a> | Powered by <a href="http://blondish.net/scripts/phpurl/">PHPurl</a>
+</div> 
+</body>
+</html>
