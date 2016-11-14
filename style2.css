@@ -1,9 +1,9 @@
 body
-{ background: #ffffff url(img/bg.png) repeat-x;
+{ background: #2E3134;
   color: #000000;
 }
 
-h1, h2, h3{color: #404040;}
+h1, h2, h3{color: #D2DD15;}
 
 .left, .right{border-color: #FFFFFF;}
 
@@ -19,7 +19,7 @@ blockquote
 
 #main, h4, #content a, #content a:hover
 { background: transparent;
-  color: #404040;
+  color: #D2DD15;
 }
 
 #logo, #logo h1, #footer a, #footer a:hover
@@ -35,13 +35,13 @@ ul#menu li a
 } 
 
 ul#menu li a:hover, ul#menu li a.current, ul#menu li a.current:hover
-{ background: #404040 url(img/menu_hover.png) repeat;} 
+{ background: #000} 
 
 .sidebaritem ul, .sidebaritem li{border-color: #404040;}
 
 .sidebaritem li a, .sidebaritem li a:hover
-{ background: transparent url(img/arrow.png) no-repeat left center;
-  color: #404040;  
+{ background: transparent;
+  color: #D2DD15;  
 } 
 
 .sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover
@@ -54,7 +54,7 @@ ul#menu li a:hover, ul#menu li a.current, ul#menu li a.current:hover
 }
 
 #footer
-{ background: transparent url(img/footer.png) repeat;
+{ background: transparent;
   color: #FFFFFF;
   border-color: #404040;
 }

@@ -92,7 +92,9 @@ ol li
 }
 
 /* main container */
-#main{width: 770px;}
+#main{
+  width: 100%;
+  }
 
 /* logo */
 #logo
@@ -145,9 +147,11 @@ ul#menu li a
 { width: 770px;
   overflow: hidden;
   margin: 5px 0px 0px 0px;
-  background: #FFF;
+  background: #000;
 } 
 
+
+	
 /* sidebar */
 .sidebar
 { float: right;
@@ -166,7 +170,7 @@ ul#menu li a
 .sidebaritem h1, .sidebaritem h3, .sidebaritem p{margin: 8px 10px 10px 12px;}
 
 .sidebaritem ul
-{ border-top: 1px solid;
+{ border-top: 0px solid;
   width: 160px; 
   padding-top: 4px; 
   margin: 4px 0px 15px 14px;
@@ -175,7 +179,7 @@ ul#menu li a
 .sidebaritem li
 { list-style: none; 
   padding: 0px 0px 4px 0px; 
-  border-bottom: 1px solid;
+  border-bottom: 0px solid;
 }
 
 .sidebaritem li a, .sidebaritem li a:hover
@@ -186,10 +190,10 @@ ul#menu li a
 
 /* page content */
 #content
-{ text-align: left;
-  width: 497px;
-  float: left;
-  padding: 22px 10px 15px 28px;
+{ text-align: center;
+  width: 400px;
+  margin: auto;
+  padding-top: 10vh;
 }
 
 #content h1{font-size: 125%;}
@@ -202,8 +206,9 @@ ul#menu li a
 
 /* footer */
 #footer
-{ width: 100%;
+{ width: 730px;
   height: 40px;
+  padding: 18px 20px 4px 20px;
   text-align: center; 
 }
 
@@ -218,10 +223,10 @@ fieldset
 }
 
 #urlresults {
-background: #ffffff;
-border: 1px #ffffff;
+background: #2E3134;
+border: 0px #000;
 padding: 5px 5px 5px 5px;
-color: #000000;
+color: #fff;
 }
 
 input{padding: 2px;}
@@ -233,7 +238,11 @@ textarea
 }
 
 .date
-{ border-top: 1px solid; 
+{ border-top: 0px solid; 
   margin: 15px 0px 5px 0px;
   font-weight: bold;
 }
+
+.button {
+    border: 3px solid #D2DD15;
+    background-color: #D2DD15;
