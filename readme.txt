@@ -2,15 +2,7 @@
 // Copyright (c) 2016 by Patrik Ohlson
 // PHPurl Version 1.01
 // http://zdi.it
-// ----------------------------------------------------------------------
-// LICENSE
-//
-// This program is free software; you can redistribute it and/or
-// modify it under the terms of the GNU General Public License (GPL)
-// as published by the Free Software Foundation; either version 3
-// of the License, or (at your option) any later version.
-// ----------------------------------------------------------------------
-// Copyright (c) 2005- 2009 by Nile Flores
+// Copyright (c) 2005-2009 by Nile Flores
 // PHPurl Version 1.0
 // http://blondish.net/
 // ----------------------------------------------------------------------
@@ -18,7 +10,7 @@
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License (GPL)
-// as published by the Free Software Foundation; either version 2
+// as published by the Free Software Foundation; either version 3
 // of the License, or (at your option) any later version.
 //
 // This program is distributed in the hope that it will be useful,
