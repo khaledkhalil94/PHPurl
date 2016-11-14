@@ -21,36 +21,30 @@
 // To read the license please visit http://www.gnu.org/copyleft/gpl.html
 // ----------------------------------------------------------------------
 
-Install
+Installation instructions:
 
-1. Upload the files to your host.
+1.) Upload the files to your host.
 
-ATTENTION! The .htaccess file is always placed in the root folder, Even if you place the main files in a subfolder. However, you can offer redirection from a sub-folder (yourdomain.com/sub-folder/shorturl.)
-
-If you install it to a subfolder you have to edit the .htaccess file.
+If you extract the files to a subfolder you have to edit the .htaccess file.
 
 The line:
-
 "RewriteRule ^([a-zA-Z0-9]+)/?$ /go.php?id=$1 [L]"
-To
+
+becomes:
 "RewriteRule ^([a-zA-Z0-9]+)/?$ /subfolder/go.php?id=$1 [L]"
 
-2. Open up config.php . Edit the lines with the correct information for your Domain Name and Mysql info, and admin username and password.
+2.) Open up config.php . Edit the lines with the correct information for your Domain Name and Mysql info, and PHPurl admin username and password.
 
-ATTENTION! You can only specify the domain name, even if you placed the main files in a subfolder. Again, this also has a stipulation is you want to offer redirection from a sub-folder (yourdomain.com/sub-folder/shorturl.)
+For the domain name, configure the subfolder (if any) your redirect script is, for example:
 
+$root = 'domain.tld/subfolder/';
+$rooturl = 'http://www.domain.tld/subfolder/';
+$destination = 'http://www.domain.tld/subfolder/go.php?id=';
 
-3. Run install.php it will create the tables, Remember to delete install.php  when its finished.
+3.) Run install.php from your browser. It will create the tables required on your MySQL database.
+Remember to delete install.php when it's finished.
 
-
-4. To login to the admin panel, point your browser to http://www.yourdomain.com/subfolder/admin/login.php
+4.) To login to the admin panel, point your browser to http://www.domain.tld/subfolder/admin/login.php
  
-Here you can Add / Edit / Delete urls.
+Here you can Add / Edit / Delete URLs.
 
-
-
-// ----------------------------------------------------------------------
-ATTENTION! You can change the layout to anything you want. Just remember to copy and paste the code into the correct spots where you want it to show up on your webpage design.
-
-// ----------------------------------------------------------------------
-//
